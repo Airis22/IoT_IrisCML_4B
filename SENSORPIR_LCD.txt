@@ -1,0 +1,52 @@
+#include <LiquidCrystal.h>
+
+// Definimos el pin donde está conectado el sensor PIR
+int sensorPIR = 8;  // El pin OUT del sensor PIR
+int led = 13;        // Usamos el LED incorporado en el pin 13 del Arduino
+
+// Definimos dónde está conectada la pantalla LCD
+LiquidCrystal lcd(7, 6, 5, 4, 3, 2);
+
+void setup() {
+  // Iniciamos la comunicación serial
+  Serial.begin(9600);
+  
+  // Configuramos el pin del sensor como entrada
+  pinMode(sensorPIR, INPUT);
+  
+  // Configuramos el pin del LED como salida
+  pinMode(led, OUTPUT);
+  
+  // Iniciamos la pantalla LCD y mostramos mensaje inicial
+  lcd.begin(16, 2);  // Definir el tamaño de la pantalla LCD (16 columnas, 2 filas)
+  lcd.print("Esperando deteccion");
+  lcd.setCursor(0, 1);
+  lcd.print("de movimiento...");
+  delay(2000);  // Espera para que el mensaje inicial sea legible
+}
+
+void loop() {
+  // Leemos el valor del sensor PIR (HIGH si detecta movimiento, LOW si no)
+  int estadoSensor = digitalRead(sensorPIR);
+  
+  // Limpiamos la pantalla antes de mostrar un nuevo mensaje
+  lcd.clear();
+  
+  // Si el sensor detecta movimiento (estado HIGH)
+  if (estadoSensor == HIGH) {
+    digitalWrite(led, HIGH);  // Enciende el LED
+    lcd.setCursor(0, 0);     // Establece el cursor en la primera fila, primera columna
+    lcd.print("Movimiento");
+    lcd.setCursor(0, 1);     // Establece el cursor en la segunda fila, primera columna
+    lcd.print("detectado!");
+  } 
+  else {
+    digitalWrite(led, LOW);  // Apaga el LED
+    lcd.setCursor(0, 0);      // Establece el cursor en la primera fila, primera columna
+    lcd.print("Sin movimiento");
+    lcd.setCursor(0, 1);      // Establece el cursor en la segunda fila, primera columna
+    lcd.print("detectado.");
+  }
+
+  delay(1000);  // Retardo de 1 segundo para que el mensaje sea legible
+}
