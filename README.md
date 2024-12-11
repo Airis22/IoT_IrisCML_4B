@@ -21,7 +21,8 @@ Este proyecto implementa un programa en Arduino que controla una serie de LEDs. 
 El siguiente código configura 7 LEDs conectados a los pines digitales de la placa Arduino y los controla para encenderlos de forma secuencial con un retardo de 500 ms:
 
 ## Diagrama
-![image](https://github.com/user-attachments/assets/0abf399e-7662-4c7e-b268-fcfd53a10be4)
+![image](![image](https://github.com/user-attachments/assets/257d1d4e-f7e7-46db-a6a8-9e5329121082)
+)
 
 Conexión de los LEDs:
    - Conecta el cátodo (pata corta) de cada LED al puerto GND de la placa Arduino.
@@ -48,7 +49,7 @@ Conexión de los LEDs:
    - Conecta el ánodo (pata larga) al pin digital correspondiente (ejemplo: pin 13 para rojo, 12 para amarillo, 11 para verde) usando resistencias de 220 ohmios.
 
 ## Diagrama
-![image](https://github.com/user-attachments/assets/de9b87e9-7f92-41f2-b172-1c22966d3600)
+![image]([https://github.com/user-attachments/assets/de9b87e9-7f92-41f2-b172-1c22966d3600](https://acortes.co/wp-content/uploads/2020/11/Pr4_semaforo.jpg))
 
 
 
@@ -70,7 +71,8 @@ Este proyecto utiliza un sensor LDR (Light Dependent Resistor) para medir la int
 El siguiente código configura un sensor LDR conectado al pin analógico A5 y un LED conectado al pin digital 2. Si el nivel de luz es inferior al umbral establecido (valor mayor a 300), el LED se enciende:
 
 ## Diagrama
-![image](https://github.com/user-attachments/assets/957275c2-0f10-419b-b545-3830e76af773)
+![image](![image](https://github.com/user-attachments/assets/6fd3807f-5faf-4fbd-bdad-1d9cb005d232)
+)
 
 
 
@@ -93,7 +95,8 @@ Este proyecto utiliza un sensor LDR para medir la intensidad lumínica del ambie
 El siguiente código configura un sensor LDR conectado al pin analógico A5 y un LED azul conectado al pin digital 10. La intensidad lumínica se lee y se muestra en la pantalla LCD. Si la luz medida es mayor que el umbral de 700, el LED se enciende; de lo contrario, se apaga.
 
 ## Diagrama
-![image](https://github.com/user-attachments/assets/7d4f9369-78d5-4ab4-934b-1de58a4d33cb)
+![image](![image](https://github.com/user-attachments/assets/38b04d97-6f7e-4871-8386-27004b32d94b)
+)
 
 
 
@@ -112,11 +115,12 @@ Este proyecto utiliza un sensor de ultrasonido para medir la distancia de un obj
 ## Código
 El siguiente código, configura un sensor Ultrasonico, para que encienda led por led cada 5 centimetros que se acerque.
 ## Diagrama
-![image](https://github.com/user-attachments/assets/994d1ad4-6f97-44df-9c85-b2c1ee3b23d9)
+![image](![image](https://github.com/user-attachments/assets/9fda1d7c-581a-4a24-91ec-b9d6db925b7a)
+)
 
 
 
-# Ultranico+LCD
+# Practica Ultranico+LCD
 En este archivo se utilizaron la pantalla LCD y el sensor ultrasónico. Estos componentes sirvieron para mostrar en la pantalla la distancia detectada por el sensor hasta localizar un objeto.
 # Ultrasonido + LCD
 Este proyecto utiliza un sensor de ultrasonido para medir la distancia a un objeto y visualiza esa distancia en una pantalla LCD. Además, enciende un LED cuando el objeto está a menos de 30 cm de distancia.
@@ -131,11 +135,12 @@ Este proyecto utiliza un sensor de ultrasonido para medir la distancia a un obje
 - IDE de Arduino: Descargable desde [https://www.arduino.cc/](https://www.arduino.cc/).
 
 ## Diagrama
-![image](https://github.com/user-attachments/assets/71dcfb80-bee8-43bf-83b1-8e1468c6cda5)
+![image](![image](https://github.com/user-attachments/assets/e36676bb-dc6d-487c-b5c6-946eb104aa8c)
+)
 
 
 
-# RGB LED
+#Practica RGB LED
 En este proyecto, utilizamos un LED RGB, el cual puede generar una amplia gama de colores combinando tres colores básicos: rojo, verde y azul. Cada color se controla mediante un valor de intensidad, que varía entre 0 (apagado) y 255 (máxima intensidad). Este código permite cambiar el color del LED RGB a diferentes tonos según las combinaciones de estos valores.
 
 ## Materiales
@@ -158,7 +163,7 @@ En este código se configura un LED RGB para proyectar varios colores mediante l
 
 
 
-# DHT-11 Sensor de Temperatura y Humedad
+# Practica DHT-11 Sensor de Temperatura y Humedad
 
 En este proyecto se utiliza el sensor DHT-11 para medir la temperatura y la humedad del ambiente. Los datos obtenidos se visualizan en el monitor serie de Arduino, y un LED se enciende cuando la temperatura alcanza un umbral determinado.
 
@@ -196,4 +201,8 @@ El examen consistía en conectar un LED RGB y un sensor DHT11 a la placa Arduino
 - IDE de Arduino: Entorno de desarrollo para programar y cargar el código en la placa Arduino.
 
 ## Diagrama
-![image](https://github.com/user-attachments/assets/2e70b121-0fd7-443b-bbc1-cdefe94df592)
+![image](![image](https://github.com/user-attachments/assets/c831aff2-a7ab-478b-9189-5547171a0521)
+)
+![image](!![image](https://github.com/user-attachments/assets/a26aebae-2f52-45fd-bd5f-38b4ff07e223)
+)
+)
