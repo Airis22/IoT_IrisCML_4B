@@ -201,5 +201,7 @@ El examen consistía en conectar un LED RGB y un sensor DHT11 a la placa Arduino
 - IDE de Arduino: Entorno de desarrollo para programar y cargar el código en la placa Arduino.
 
 ## Diagrama
-![image](![image](https://github.com/user-attachments/assets/c831aff2-a7ab-478b-9189-5547171a0521)
-![image](![image](https://github.com/user-attachments/assets/a26aebae-2f52-45fd-bd5f-38b4ff07e223)
+![Imagen normal](https://github.com/user-attachments/assets/c831aff2-a7ab-478b-9189-5547171a0521)
+<img src="https://ruta-de-la-imagen.com/imagen.jpg" alt="Imagen ajustada" width="200"/>
+![Imagen normal](https://github.com/user-attachments/assets/a26aebae-2f52-45fd-bd5f-38b4ff07e223)
+<img src="https://ruta-de-la-imagen.com/imagen.jpg" alt="Imagen ajustada" width="200"/>
