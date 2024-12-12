@@ -21,8 +21,7 @@ Este proyecto implementa un programa en Arduino que controla una serie de LEDs. 
 El siguiente código configura 7 LEDs conectados a los pines digitales de la placa Arduino y los controla para encenderlos de forma secuencial con un retardo de 500 ms:
 
 ## Diagrama
-![image](![image](https://github.com/user-attachments/assets/257d1d4e-f7e7-46db-a6a8-9e5329121082)
-)
+![image](https://github.com/user-attachments/assets/257d1d4e-f7e7-46db-a6a8-9e5329121082)
 
 Conexión de los LEDs:
    - Conecta el cátodo (pata corta) de cada LED al puerto GND de la placa Arduino.
@@ -49,7 +48,7 @@ Conexión de los LEDs:
    - Conecta el ánodo (pata larga) al pin digital correspondiente (ejemplo: pin 13 para rojo, 12 para amarillo, 11 para verde) usando resistencias de 220 ohmios.
 
 ## Diagrama
-![image]([https://github.com/user-attachments/assets/de9b87e9-7f92-41f2-b172-1c22966d3600](https://acortes.co/wp-content/uploads/2020/11/Pr4_semaforo.jpg))
+![image](https://acortes.co/wp-content/uploads/2020/11/Pr4_semaforo.jpg)
 
 
 
@@ -72,8 +71,6 @@ El siguiente código configura un sensor LDR conectado al pin analógico A5 y un
 
 ## Diagrama
 ![image](![image](https://github.com/user-attachments/assets/6fd3807f-5faf-4fbd-bdad-1d9cb005d232)
-)
-
 
 
 # Proyecto: Intensidad Lumínica con LCD y LDR
@@ -95,10 +92,7 @@ Este proyecto utiliza un sensor LDR para medir la intensidad lumínica del ambie
 El siguiente código configura un sensor LDR conectado al pin analógico A5 y un LED azul conectado al pin digital 10. La intensidad lumínica se lee y se muestra en la pantalla LCD. Si la luz medida es mayor que el umbral de 700, el LED se enciende; de lo contrario, se apaga.
 
 ## Diagrama
-![image](![image](https://github.com/user-attachments/assets/38b04d97-6f7e-4871-8386-27004b32d94b)
-)
-
-
+![image](https://github.com/user-attachments/assets/38b04d97-6f7e-4871-8386-27004b32d94b)
 
 # Proyecto: Sensor Ultrasonido y LEDs
 
@@ -115,10 +109,7 @@ Este proyecto utiliza un sensor de ultrasonido para medir la distancia de un obj
 ## Código
 El siguiente código, configura un sensor Ultrasonico, para que encienda led por led cada 5 centimetros que se acerque.
 ## Diagrama
-![image](![image](https://github.com/user-attachments/assets/9fda1d7c-581a-4a24-91ec-b9d6db925b7a)
-)
-
-
+![image](https://github.com/user-attachments/assets/9fda1d7c-581a-4a24-91ec-b9d6db925b7a)
 
 # Practica Ultranico+LCD
 En este archivo se utilizaron la pantalla LCD y el sensor ultrasónico. Estos componentes sirvieron para mostrar en la pantalla la distancia detectada por el sensor hasta localizar un objeto.
@@ -135,10 +126,7 @@ Este proyecto utiliza un sensor de ultrasonido para medir la distancia a un obje
 - IDE de Arduino: Descargable desde [https://www.arduino.cc/](https://www.arduino.cc/).
 
 ## Diagrama
-![image](![image](https://github.com/user-attachments/assets/e36676bb-dc6d-487c-b5c6-946eb104aa8c)
-)
-
-
+![image](https://github.com/user-attachments/assets/e36676bb-dc6d-487c-b5c6-946eb104aa8c)
 
 #Practica RGB LED
 En este proyecto, utilizamos un LED RGB, el cual puede generar una amplia gama de colores combinando tres colores básicos: rojo, verde y azul. Cada color se controla mediante un valor de intensidad, que varía entre 0 (apagado) y 255 (máxima intensidad). Este código permite cambiar el color del LED RGB a diferentes tonos según las combinaciones de estos valores.
@@ -201,7 +189,5 @@ El examen consistía en conectar un LED RGB y un sensor DHT11 a la placa Arduino
 - IDE de Arduino: Entorno de desarrollo para programar y cargar el código en la placa Arduino.
 
 ## Diagrama
-![Imagen normal](https://github.com/user-attachments/assets/c831aff2-a7ab-478b-9189-5547171a0521)
-<img src="https://ruta-de-la-imagen.com/imagen.jpg" alt="Imagen ajustada" width="200"/>
-![Imagen normal](https://github.com/user-attachments/assets/a26aebae-2f52-45fd-bd5f-38b4ff07e223)
-<img src="https://ruta-de-la-imagen.com/imagen.jpg" alt="Imagen ajustada" width="200"/>
+<img src="https://github.com/user-attachments/assets/c831aff2-a7ab-478b-9189-5547171a0521" alt="Imagen ajustada" width="200"/>
+<img src="[https://ruta-de-la-imagen.com/imagen.jpg](https://github.com/user-attachments/assets/a26aebae-2f52-45fd-bd5f-38b4ff07e223)" alt="Imagen ajustada" width="200"/>
